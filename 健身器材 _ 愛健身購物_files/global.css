@@ -1,0 +1,150 @@
+/* 隱藏頁尾 QDM */
+#qdm-copy { display: none; visibility:hidden; }
+
+/* gridbox */
+.grid-box {
+padding: 0px 20px 10px 10px;
+}
+footer h3 {
+font-size: 1.4em;
+}
+#footer-copyright {
+height: 80px;
+overflow-y: hidden;
+}
+#footer-copyright> p {
+line-height: 0px;
+height: 0px;
+}
+#footer .row-fluid> p {
+display: none; visibility:hidden;
+}
+#footer p {
+color: rgb(255,255,255);
+}
+#footer a{
+color: rgb(255,255,255);
+}
+#footer a:hover {
+color: rgb(0, 156, 255);
+}
+
+#content-wrapper > .container:first-child {
+width: 100%;
+}
+
+
+
+body.home.fullscreen #footer {
+/*max-width: 100%;*/
+width: 100%;
+}
+#footer .footer-inner {
+width:100%;
+}
+.footer-inner .row-fluid {
+width:60%;
+margin-left:25%;
+}
+#footer .footer-bottom {
+width: 100%;
+}
+#mainnav .nav>li>a:link
+{
+color: #FFFFFF;
+}
+#mainnav .nav>li>a:visited
+{
+color: #FFFFFF;
+}
+#mainnav .nav>li>a:hover
+{
+color: rgb(0, 156, 255);
+}
+/*RWD Youtube 以及 Vimeo*/
+.video-container{
+position:relative;
+padding-bottom:56.25%;
+padding-top:30px;height:0;overflow:hidden;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+}
+
+#menu {
+    position: fixed;
+    left: 0;
+    top: 55px;
+    background-color: #fff;
+    z-index: 1000;
+    width: 100%;
+    overflow: hidden;
+    border-bottom: 1px solid #d2d2d2;
+    border-top: 1px solid #d2d2d2;
+}
+
+#menu a {
+    float: none;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: -4px;
+    width: initial;
+    padding: 8px 10px;color: rgb(0, 156, 255);
+}
+
+@media only screen and (max-width: 1000px), only screen and (max-device-width: 667px) and (min-device-width: 375px) and (orientation: portrait), only screen and (max-device-width: 736px)
+and (min-device-width: 414px) and (orientation: portrait)
+{
+.footer-inner .row-fluid {
+width: 100%;
+margin-left: 0px;
+}
+#footer .contact {
+width: 80%;
+}
+#content-top {
+    padding-top: 40px;
+}
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait){
+
+#footer a, #footer a:link, #footer a:visited {
+color: rgb(51, 51, 51);
+}
+}
+@media only screen
+and (min-device-width : 768px)
+and (max-device-width : 1024px)
+and (orientation : portrait) {
+#footer .contact {
+width: 30%;
+}
+#content-top {
+    padding-top: 40px;
+}
+}
+
+small {
+color: #000;
+font-size: 18px;
+}
+
+.circle-num {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  font-size: 18px;
+  color: #fff;
+  line-height: 24px;
+  text-align: center;
+  background: #f00
+}
